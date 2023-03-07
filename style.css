@@ -1,0 +1,368 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0 0 5 0;
+  padding: 4px;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+
+.txt-big {
+  font-size: 20px;
+}
+
+.txt-medium {
+  font-size: 16px;
+}
+
+/* NAVIGATION BAR */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  /* border: 4px solid green; */
+  height: max-content;
+  background-color: black;
+  color: antiquewhite;
+  padding: 15px 5px 15px 5px;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.top-nav {
+  align-items: flex-end;
+}
+
+.top-nav li a {
+  /* border: 1px solid red; */
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: darkgray;
+  padding: 5px;
+  margin: 0 10px 0 10px;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.top-nav li a:hover {
+  background-color: antiquewhite;
+  color: black;
+  border: 2px solid darkgray;
+}
+
+/* ERSTE SEITE */
+.landing-page {
+  /* border: 4px solid red;
+  background-color: #dde5b6; */
+  background-image: url(./images/rob-scallon-breaks-guinness-world-record.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  min-height: 100vh;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-content {
+  /* border: 3px solid pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space- between;
+  align-items: stretch;
+}
+
+.gas-txt {
+  /* border: 4px solid blue; */
+  height: 50%;
+  width: 40%;
+  padding: 0 5px;
+  background-color: rgba(250, 235, 215, 0.9);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.gas-video {
+  align-self: flex-end;
+  margin-left: auto;
+  border: 8px solid antiquewhite;
+  border-radius: 10px;
+}
+
+.the-idea-link {
+  padding: 5px;
+  margin: 15px;
+  display: flex;
+  width: fit-content;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  align-self: center;
+}
+
+.the-idea-link:hover {
+  background-color: black;
+}
+
+.the-idea-link a {
+  font-size: 30px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.the-idea-link a:hover {
+  color: antiquewhite;
+}
+
+/* ZWEITE SEITE */
+.the-idea {
+  height: 100vh;
+  padding: 10px 20px;
+  background-color: darkgray;
+  color: antiquewhite;
+}
+
+.the-idea h2 {
+  font-size: 40px;
+}
+
+.maybe {
+  min-height: 20%;
+  width: auto;
+  margin: 5px 200px;
+  /* border: 2px solid orangered; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-help-row {
+  /* border: 2px solid greenyellow; */
+  width: 100%;
+}
+
+.help-row-center p {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.help-row-bottom p {
+  margin-left: auto;
+  width: fit-content;
+}
+
+.maybe p {
+  font-size: 50px;
+  text-shadow: 2px 2px rgba(57, 55, 55, 0.975);
+}
+
+.strategy {
+  /* border: 2px solid blueviolet; */
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.link-button-show {
+  padding: 5px;
+  margin: 10px auto;
+  display: flex;
+  width: fit-content;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  align-self: center;
+}
+
+.link-button-show:hover {
+  background-color: black;
+}
+
+.link-button-show a {
+  font-size: 30px;
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.link-button-show a:hover {
+  color: antiquewhite;
+}
+
+/* ABOUT */
+.about-main {
+  /* border: 4px solid red; */
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.about-main h2 {
+  color: antiquewhite;
+  margin-top: 50px;
+}
+.about-main img {
+  width: 150px;
+}
+.image-container {
+  /* border: 2px solid green; */
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.about-txt {
+  /* border: 2px solid greenyellow; */
+  background-color: antiquewhite;
+  margin: 60px 30px 0 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.about-txt h3 {
+  text-align: center;
+}
+.about-txt p {
+  margin: 10px;
+}
+/* CONTACT */
+.contact-content {
+  /* border: 2px solid red; */
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-content a {
+  font-size: 40px;
+  color: aqua;
+}
+/* EXTERNE SEITE MY GEAR */
+.body-mygear {
+  /* border: 4px solid red; */
+  background-color: darkgrey;
+  color: antiquewhite;
+  margin: 0;
+  padding: 0;
+}
+
+.body-mygear h2 {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.gear-main-page {
+  /* border: 2px solid blue; */
+  background-color: rgb(88, 88, 88);
+  width: 98vw;
+  min-height: max-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gear {
+  /* border: 2px solid pink; */
+  border-radius: 8px;
+  background-color: rgba(250, 235, 215, 0.881);
+  width: 250px;
+  height: 500px;
+  margin: 30px 10px;
+  box-shadow: rgba(0, 0, 0, 0.13);
+}
+.gear:hover {
+  background-color: rgba(250, 235, 215, 1);
+}
+
+.gear-bild {
+  /* border: 2 solid yellow; */
+  border-radius: 6px 6px 0 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+
+/* Pedal Bilder: */
+.gear-pic-01 {
+  background-image: url("./images/bbq.JPG");
+}
+
+.gear-pic-02 {
+  background-image: url("./images/jonassus.JPG");
+}
+.gear-pic-03 {
+  background-image: url("./images/kafka.JPG");
+}
+.gear-pic-04 {
+  background-image: url("./images/katzenkönig.JPG");
+}
+.gear-pic-05 {
+  background-image: url("./images/spacetime.JPG");
+}
+.gear-pic-06 {
+  background-image: url("./images/time.JPG");
+}
+.gear-pic-07 {
+  background-image: url("./images/rectoplexxx.JPG");
+}
+.gear-pic-08 {
+  background-image: url("./images/t3.JPG");
+}
+
+.gear-short {
+  background-color: #c2bcbc;
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  height: 50%;
+}
+
+.gear-short h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.gear-short p {
+  margin: 10px 0;
+  color: black;
+}
+
+.gear-short a {
+  color: rgb(123, 117, 108);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.gear-short a:hover {
+  color: white;
+}
